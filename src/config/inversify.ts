@@ -2,7 +2,7 @@ import { Container } from "inversify";
 import { RegisterableController } from "../controller/RegisterableController";
 import Types from './types';
 import UserController from "../controller/userController";
-import {UserService, UserServiceImpl} from "../UserService/userService";
+import {UserService, UserServiceImpl} from "../service/userService";
 import {UserRepository} from "../repository/userRepository";
 
 const container: Container = new Container();

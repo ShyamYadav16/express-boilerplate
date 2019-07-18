@@ -21,8 +21,7 @@
       "node_modules/@types"
     ],
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "esModuleIntrop": true
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src/**/*",
